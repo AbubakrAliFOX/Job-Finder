@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 
-<body class="bg-dark-bg text-white">
+<body class="bg-dark-bg text-white font-hanken-grotesk">
     <div class="px-10">
         <nav class="flex justify-between py-4 border-b border-red/10">
             <div>

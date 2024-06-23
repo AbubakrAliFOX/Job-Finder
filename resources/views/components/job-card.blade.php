@@ -1,15 +1,16 @@
-<div class="p-4 bg-white/5 rounded-xl flex flex-col text-center">
+<x-panel class="flex flex-col text-center">
     <div class="self-start text-sm">Tamakan</div>
-    <div class="py-8 font-bold">
-        <p>Fullstack Web Developer</p>
-        <p>Full Time - From $60,000</p>
+    <div class="py-8">
+        <h3 class="group-hover:text-blue-600 transition-colors duration-300 font-bold text-xl">Fullstack Web Developer
+        </h3>
+        <p class="text-sm mt-4">Full Time - From $60,000</p>
     </div>
     <div class="flex justify-between items-center mt-auto">
         <div>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
+            <x-tag size="small">Backend</x-tag>
+            <x-tag size="small">Frontend</x-tag>
+            <x-tag size="small">UI/UX</x-tag>
         </div>
-        <img class="rounded-xl" src="http://placehold.it/42" alt="">
+        <x-employer-logo :width="42" />
     </div>
-</div>
+</x-panel>
