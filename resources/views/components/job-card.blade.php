@@ -1,4 +1,4 @@
-@prop(['job'])
+@props(['job'])
 <x-panel class="flex flex-col text-center">
     <div class="self-start text-sm">Tamakan</div>
     <div class="py-8">
@@ -8,8 +8,8 @@
     </div>
     <div class="flex justify-between items-center mt-auto">
         <div>
-            @foreach ($jobs->tags as $tag)
-                <x-tag :tag="$tag" size="small">
+            @foreach ($job->tags as $tag)
+                <x-tag :tag="$tag" size="small" />
             @endforeach
         </div>
         <x-employer-logo :width="42" />
